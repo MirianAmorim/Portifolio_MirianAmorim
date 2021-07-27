@@ -67,3 +67,10 @@ textareaMensagem.addEventListener('keyup', ()=>{
       btnEnviar.disabled = true
    }
 })
+
+btnEnviar.addEventListener('click', () => {
+   let carregamento = document.querySelector('#carregamento')
+   carregamento.style.display = 'flex'
+   let form = document.querySelector('form')
+   form.style.display = 'none'
+})
