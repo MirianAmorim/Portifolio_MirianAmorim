@@ -51,6 +51,7 @@ nav ul li a:hover {
   padding:1.5vw;
   background-color: #000000ef;
   color: #ccc;
+  text-shadow: #ffffff;
   font-size: larger;
 }
 
@@ -528,6 +529,7 @@ section#success div#card a{
 }
 
 section#success div#card a:hover{
+  text-shadow: #ffffff;
   box-shadow: rgba(253, 5, 100, 0.459) 0px 8px 24px;
   padding:1.vw;
 }
