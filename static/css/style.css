@@ -301,8 +301,7 @@ section#habilidades span#equipe {
 }
 
 section#contato {
-  whidth: 100%
-  padding: 5vw 10vw 3vw 10vw;
+  width: 100%
   display:grid;
   place-items: center;
   align-items: center;
@@ -447,8 +446,8 @@ section#contato div#carregamento div#loader{
   border-bottom: 13px solid #0b5c5c;
   width: 80px;
   height: 80px;
-  /* Anima o elemento div#loader criando a variável spin, em 2s de forma linear e infinita */
-  animation: spin 2s linear infinite;
+  /* Anima o elemento div#loader criando a variável spin, em 5s de forma linear e infinita */
+  animation: spin 5s linear infinite;
 }
 
 @keyframes spin {
@@ -462,7 +461,7 @@ section#contato div#carregamento div#loader{
 
 footer p {
   color: #fff;
-  min-height: 4rem;
+  min-height: 4vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -484,7 +483,7 @@ footer a#Mi_Link:hover {
 }
 
 footer {
-  margin-top: 3rem;
+  margin-top: 3vw;
 }
 
 
@@ -501,33 +500,33 @@ section#success{
 section#success div#card{
   background-color: rgb(166, 218, 166);
   text-align: center;
-  padding: 4rem;
-  border-radius: 2rem;
+  padding: 4vw;
+  border-radius: 2vw;
   color: rgb(0, 88, 0);
   width: 40%;
 }
 
 section#success div#card h1{
-  margin: 2rem 0rem;
+  margin: 2vw 0vw;
 }
 
 section#success div#card i{
-  font-size: 5rem;
+  font-size: 5vw;
 }
 
 section#success div#card h3{
-  margin-bottom: 2rem;
+  margin-bottom: 2vw;
 }
 
 section#success div#card p{
-  margin-bottom: 3rem;
+  margin-bottom: 3vw;
   width: 100%;
   word-break: break-word;
 }
 
 section#success div#card a{
   text-decoration: none;
-  padding: 1rem;
+  padding: 1vw;
   border: 1px solid rgb(0, 88, 0);
   color:rgb(0, 88, 0);
   border-end-start-radius: 70%;
