@@ -485,15 +485,15 @@ section#success{
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-color: rgb(235, 255, 235);
+  background-color: rgb(0, 0, 0);
 }
 
 section#success div#card{
-  background-color: rgb(166, 218, 166);
+  background-color: rgb(202, 132, 156);
   text-align: center;
   padding: 4vw;
   border-radius: 2vw;
-  color: rgb(0, 88, 0);
+  color: #950050;
   width: 40%;
 }
 
@@ -518,8 +518,8 @@ section#success div#card p{
 section#success div#card a{
   text-decoration: none;
   padding: 1vw;
-  border: 1px solid rgb(0, 88, 0);
-  color:rgb(0, 88, 0);
+  border: 1px solid #950050;
+  color:#950050;
   border-end-start-radius: 80%;
   border-start-end-radius: 80%;
   border-style: dotted;
@@ -528,6 +528,6 @@ section#success div#card a{
 }
 
 section#success div#card a:hover{
-  background-color: rgb(0, 88, 0);
+  background-color: #950050;
   color: #fff;
 }
