@@ -99,6 +99,7 @@ section#first div#first-text {
 }
 
 section#sobre {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,6 +131,7 @@ section#sobre div#texto-sobre p {
   font-size: 1.8vw;
   text-align: justify;
   color: #fff;
+  line-height: 2.5vw;
 }
 
 section#projetos {
