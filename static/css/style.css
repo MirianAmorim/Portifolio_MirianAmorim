@@ -56,6 +56,7 @@ nav ul li a:hover {
 }
 
 section#first {
+  whidt: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,6 +136,7 @@ section#sobre div#texto-sobre p {
 }
 
 section#projetos {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -200,6 +202,7 @@ section#projetos div button a {
 }
 
 section#habilidades {
+  whidth: 100%;
   padding: 1vw 10vw 1vw 10vw;
   background-color: #000000;
 }
@@ -298,6 +301,7 @@ section#habilidades span#equipe {
 }
 
 section#contato {
+  whidth: 100%
   padding: 5vw 10vw 3vw 10vw;
   display:grid;
   place-items: center;
