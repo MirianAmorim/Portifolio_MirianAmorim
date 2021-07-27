@@ -59,6 +59,7 @@ section#first {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10vw 2vw 5vw 2vw;
 }
 
 section#first div#estudando {
