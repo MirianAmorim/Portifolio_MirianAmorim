@@ -68,7 +68,7 @@ section#first div#estudando {
 }
 
 section#first div#estudando img {
-  width: 120%;
+  width: 100%;
   border-end-start-radius: 80%;
 }
 
@@ -178,8 +178,7 @@ section#projetos div button {
   padding: 1vw;
   border-end-start-radius: 58%;
   border-start-end-radius: 58%;
-  border-style: dotted;
-  border-top-style:solid;
+  border-style: solid;
   display: block;
   margin: auto;
   margin-top: 2vw;
