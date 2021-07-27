@@ -69,12 +69,12 @@ section#first div#estudando {
   padding-top: 2vw;
 }
 
-section#first div img {
+section#first div#estudando img {
   width: 120%;
   border-end-start-radius: 80%;
 }
 
-section#first div img:hover {
+section#first div#estudando img:hover {
   box-shadow:rgba(253, 5, 100, 0.459) 0px 8px 24px;
 }
 section#first div p a {
