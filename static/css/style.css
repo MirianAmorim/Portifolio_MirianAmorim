@@ -55,7 +55,6 @@ nav ul li a:hover {
 }
 
 section#first {
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,7 +131,6 @@ section#sobre div#texto-sobre p {
 }
 
 section#projetos {
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -197,7 +195,7 @@ section#projetos div button a {
 }
 
 section#habilidades {
-  padding: 5vw;
+  padding: 10vw;
   background-color: #000000;
 }
 
