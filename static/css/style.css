@@ -425,7 +425,7 @@ section#contato h3 {
 /* Loader de carregamento */
 
 section#contato div#carregamento{
-  display: none; /* Deixa o display none para não aparecer até que você clique no botão enviar (ver JS) */
+  display: none;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 3vw;
@@ -441,14 +441,13 @@ section#contato div#carregamento p{
 }
 
 section#contato div#carregamento div#loader{
-  border: 13px solid #fff;
+  border: 13px solid rgb(0, 0, 0);
   border-radius: 50%;
   border-top: 13px solid #0b5c5c;
   border-bottom: 13px solid #0b5c5c;
-  width: 80px;
-  height: 80px;
-  /* Anima o elemento div#loader criando a variável spin, em 5s de forma linear e infinita */
-  animation: spin 5s linear infinite;
+  width: 70px;
+  height: 70px;
+  animation: spin 3s linear infinite;
 }
 
 @keyframes spin {
