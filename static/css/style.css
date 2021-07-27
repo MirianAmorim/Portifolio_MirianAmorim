@@ -98,10 +98,9 @@ section#first div#first-text {
 
 section#sobre {
   width: 100%;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
-  padding: 4vw;
   background-image: linear-gradient(to top, #0b5c5c 0%, #67082c 100%);
 }
 
@@ -121,7 +120,6 @@ section#sobre div#img-perfil {
 
 section#sobre div#img-perfil:hover {
   width: 150%;
-  border-radius: 2%;
 }
 
 section#sobre div#texto-sobre p {
@@ -130,6 +128,7 @@ section#sobre div#texto-sobre p {
   text-align: justify;
   color: #fff;
   line-height: 2.5vw;
+  padding: 2vw 5vw 2vw 5vw;
 }
 
 section#projetos {
