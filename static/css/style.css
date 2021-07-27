@@ -42,7 +42,7 @@ nav ul li a {
   border-start-end-radius: 58%;
   border-style: dotted;
   border-top-style:solid;
-  border-color:#c00267
+  border-color:#c00267;
 
 }
 
@@ -56,7 +56,7 @@ nav ul li a:hover {
 }
 
 section#first {
-  whidt: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -202,7 +202,7 @@ section#projetos div button a {
 }
 
 section#habilidades {
-  whidth: 100%;
+  width: 100%;
   padding: 1vw 10vw 1vw 10vw;
   background-color: #000000;
 }
@@ -301,10 +301,11 @@ section#habilidades span#equipe {
 }
 
 section#contato {
-  width: 100%
+  width: 100%;
   display:grid;
   place-items: center;
   align-items: center;
+  padding: 5vw 10vw 3vw 10vw;
 }
 
 section#contato div#redes h3 {
@@ -407,7 +408,7 @@ section#contato div#redes a i:hover {
   color: #042525;
   width: 60%;
   border-radius: 50%;
-  box-shadow: rgb(44, 144, 131) 0px 8px 24px
+  box-shadow: rgb(44, 144, 131) 0px 8px 24px;
 }
 
 section#contato div#redes {
@@ -415,7 +416,7 @@ section#contato div#redes {
 }
 
 section#contato h3 {
-  text-color: #fff;
+  text-emphasis-color: #fff;
   text-align: center;
   padding: 2vw;
   font-size: 2vw;
