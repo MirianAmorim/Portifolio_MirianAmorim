@@ -27,7 +27,7 @@ nav ul li {
 
 nav {
   background-color:currentColor;
-  position:static;
+  position:sticky;
   width: 100%;
 }
 
