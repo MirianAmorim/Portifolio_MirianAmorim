@@ -12,8 +12,9 @@ html, body {
   height: 100%;
   width: 100%;
   background-color: black;
-  
+  align-items: center;
 }
+
 nav ul {
   list-style:none;
   display: flex;
