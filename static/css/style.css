@@ -27,7 +27,7 @@ nav ul li {
 
 nav {
   background-color:currentColor;
-  position:absolute;
+  position:fixed;
   width: 100%;
 }
 
@@ -57,7 +57,7 @@ section#first {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8vw 1vw 4vw 1vw;
+  padding: 4vw 4vw 4vw 4vw;
 }
 
 section#first div#estudando {
