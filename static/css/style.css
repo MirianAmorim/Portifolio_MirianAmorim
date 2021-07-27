@@ -293,7 +293,6 @@ section#habilidades span#equipe {
 }
 
 section#contato {
-  width: 100%;
   display:grid;
   place-items: center;
   align-items: center;
