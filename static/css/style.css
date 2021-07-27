@@ -493,7 +493,7 @@ section#success div#card{
   background-image: linear-gradient(to top, #0b5c5c 0%, #7c0834 100%);
   text-align: center;
   padding: 4vw;
-  border-radius: 2vw.2vw;
+  border-radius: 2vw;
   color: #ffffff;
   width: 40%;
 }
