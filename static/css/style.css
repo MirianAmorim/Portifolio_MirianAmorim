@@ -9,7 +9,6 @@
 
 html, body {
   scroll-behavior: smooth;
-  height: 100%;
   width: 100%;
   background-color: black;
   align-items: center;
