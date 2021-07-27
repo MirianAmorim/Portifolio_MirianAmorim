@@ -59,7 +59,6 @@ section#first {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-block: 4vw;
 }
 
 section#first div#estudando {
