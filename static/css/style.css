@@ -115,7 +115,7 @@ section#sobre div#img-perfil img {
 
 section#sobre div#img-perfil {
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 
 section#sobre div#img-perfil:hover {
@@ -128,7 +128,7 @@ section#sobre div#texto-sobre p {
   text-align: justify;
   color: #fff;
   line-height: 2.5vw;
-  padding: 2vw 5vw 2vw 5vw;
+  padding: 3vw 5vw 3vw 5vw;
 }
 
 section#projetos {
