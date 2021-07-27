@@ -56,10 +56,10 @@ nav ul li a:hover {
 
 section#first {
   width: 100%;
-  display: flex;
+  display: inline-block;
   justify-content: center;
   align-items: center;
-  padding: 4vw 4vw 4vw 4vw;
+  margin-block: 4vw;
 }
 
 section#first div#estudando {
