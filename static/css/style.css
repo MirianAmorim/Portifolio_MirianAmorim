@@ -128,20 +128,20 @@ section#sobre div#texto-sobre p {
   font-size: 1.8vw;
   text-align: justify;
   color: #fff;
-  line-height: 2.5rem;
+  line-height: 2.5vw;
 }
 
 section#projetos {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
+  padding: 3vw;
 }
 
 section#projetos div {
   width: 100%;
-  padding: 1rem;
-  margin: 0 1rem 0 1rem;
+  padding: 1vw;
+  margin: 0 1vw 0 1vw;
 }
 
 section#projetos div:hover {
@@ -174,7 +174,6 @@ section#projetos div button {
   font-size: 0.8vw;
   font-weight: 600;
   text-decoration: none;
-  transition: 0.3s ease-in-out;
   padding: 1vw;
   border-end-start-radius: 58%;
   border-start-end-radius: 58%;
@@ -199,7 +198,7 @@ section#projetos div button a {
 
 section#habilidades {
   padding: 1vw 10vw 1vw 10vw;
-  background-color: #000000f1;
+  background-color: #000000;
 }
 
 section#habilidades h2 {
@@ -299,6 +298,7 @@ section#contato {
   padding: 5vw 10vw 3vw 10vw;
   display:grid;
   place-items: center;
+  align-items: center;
 }
 
 section#contato div#redes h3 {
@@ -444,17 +444,14 @@ section#contato div#carregamento div#loader{
   animation: spin 2s linear infinite;
 }
 
-/* Anima a variável spin do animation */
 @keyframes spin {
-  0% {  /* Começa em 0% */
-    transform: rotate(0deg); /* Rotação do elemento no 0° */ 
+  0% {
+    transform: rotate(0deg);
   } 
-  100% { /* Vai até 100% */
-    transform: rotate(360deg); /* Rotação do elemento em 360° */ 
+  100% {
+    transform: rotate(360deg);
   }
 }
-
-/* Loader de carregamento */
 
 footer p {
   color: #fff;
