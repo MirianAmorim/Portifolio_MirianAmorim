@@ -56,7 +56,7 @@ nav ul li a:hover {
 
 section#first {
   width: 100%;
-  display: inline-block;
+  display: block;
   justify-content: center;
   align-items: center;
   margin-block: 4vw;
