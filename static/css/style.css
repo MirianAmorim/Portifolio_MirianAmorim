@@ -489,11 +489,11 @@ section#success{
 }
 
 section#success div#card{
-  background-color: rgb(204, 154, 171);
+  background-image: linear-gradient(to top, #0b5c5c 0%, #7c0834 100%);
   text-align: center;
   padding: 4vw;
   border-radius: 2vw.2vw;
-  color: #950050;
+  color: #ffffff;
   width: 40%;
 }
 
@@ -520,7 +520,7 @@ section#success div#card a{
   padding: 1vw;
   background-color: #950050;
   border: 1px solid #950050;
-  color:rgb(204, 154, 171);
+  color:rgb(255, 255, 255);
   border-end-start-radius: 80%;
   border-start-end-radius: 80%;
   border-style: dotted;
@@ -529,5 +529,8 @@ section#success div#card a{
 }
 
 section#success div#card a:hover{
-  background-color: rgb(204, 154, 171);
-  color: #950050;
+  border-color:#db1176;
+  box-shadow: rgba(253, 5, 100, 0.459) 0px 8px 24px;
+  background-color: #950050;
+  color: #ccc;
+  font-size: larger;
