@@ -98,7 +98,7 @@ section#first div#first-text {
 
 section#sobre {
   width: 100%;
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(to top, #0b5c5c 0%, #67082c 100%);
