@@ -230,6 +230,7 @@ section#habilidades div {
   border-style:groove;
   border-color: #0b5c5c;
   border-radius: 1vw;
+  padding: 10vw;
 }
 
 section#habilidades span#html5 {
