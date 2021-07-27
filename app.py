@@ -43,16 +43,15 @@ def send():
       )
 
       msg = Message(
-         subject= 'Contato do seu Portfólio', #Assunto do email
-         sender=app.config.get("MAIL_USERNAME"), # Quem vai enviar o email, pega o email configurado no app (mail_settings)
-         recipients=[app.config.get("MAIL_USERNAME")], # Quem vai receber o email, mando pra mim mesmo, posso mandar pra mais de um email.
-         # Corpo do email.
+         subject= 'Contato do seu Portfólio', 
+         sender=app.config.get("MAIL_USERNAME"), 
+         recipients=[app.config.get("MAIL_USERNAME")], 
          body=f'''O {formContato.nome} com o email {formContato.email}, te mandou a seguinte mensagem: 
          
                {formContato.mensagem}''' 
          )
-      mail.send(msg) #envio efetivo do objeto msg através do método send() que vem do Flask_Mail
-   return render_template('send.html', formContato=formContato) # Renderiza a página de confirmação de envio.
+      mail.send(msg)
+   return render_template('send.html', formContato=formContato)
 
 if __name__ == '__main__':
    app.run(debug=True)

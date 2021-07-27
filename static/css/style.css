@@ -520,8 +520,8 @@ section#success div#card a{
   padding: 1vw;
   border: 1px solid rgb(0, 88, 0);
   color:rgb(0, 88, 0);
-  border-end-start-radius: 70%;
-  border-start-end-radius: 70%;
+  border-end-start-radius: 80%;
+  border-start-end-radius: 80%;
   border-style: dotted;
   border-top-style:solid;
   transition: all .4s ease-out;
